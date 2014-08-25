@@ -383,3 +383,11 @@ cat(c("Total time for all 15 tests_________________________ (sec): ", sum(times)
 cat(c("Overall mean (sum of I, II and III trimmed means/3)_ (sec): ", exp(mean(log(times[2:4, ]))), "\n"))
 remove("cumulate", "timing", "times", "runs", "i")
 cat("                      --- End of test ---\n\n")   
+
+##################RESULTS#########################################
+##MONSTERPC
+#Total time for all 15 tests_________________________ (sec):  22.9009999999999 
+#> cat(c("Overall mean (sum of I, II and III trimmed means/3)_ (sec): ", exp(mean(log(times[2:4, ]))), "\n"))
+#Overall mean (sum of I, II and III trimmed means/3)_ (sec):  0.742931257638602 
+
+##SPATDEVOTESXEN4G
